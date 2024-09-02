@@ -35,6 +35,9 @@ This project automates the setup of a secure AWS environment using Terraform. It
 - EC2 instances within these subnets
 - Additional AWS resources as required by the application
 
+![Terraform AWS Architecture](terraform-project.png)
+
+
 ## Architecture
 
 The infrastructure created by this Terraform configuration includes:
