@@ -1,6 +1,6 @@
 resource "aws_key_pair" "mykey" {
   key_name   = "deployer-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtjWmlTK/7z48xSWJLDmsNQ1BEhGlyi5jC2PzRe7+tg9wonR89FTgkhkhK+THNBNKKWRyf1DoJ8oi0Oc6DOwND6+T3Mn9wXIR62yPzH1zZfwZXy3sHd6JHXV9Uc+RCOm453T4koRGNK5AdLIBayvwn5E0Hd6TNZktau5TCgku/jU7vySgy1s4RIs+0Ud4jQUCYwUFWjsPGOltM738iOIU0LlG/cOYjoESksBQeJR4coiDIQZFFHXdMcjmG4Vl1IxZ2dMFnRJUN7tu42aqKIF6BGJ5HpqgYjEKB1Xf/1rGJsnZvRNl+KSqVEwt/20s9jBc8VDsPE76Bg5VKPZOH1+sEk+ckslR84LXTIRBNIF8vgcdd2JY0IVc39EBUITgw0PPyS9W1aDCyBgu2veITMskdrtCa42yM0FzbkFN6Kv6tGx+MkvVXOUS/EYgqkHoTOqJQrVY3vX/Nwh1vlYNN4q0TJX9hJVY8jg3ao8Of3w1RCHr7hdmIjwJEGiJsaYJx/0M= hafed@hafed-Inspiron-3542"
+  public_key = "create a local id_rsa.pub and insert it here"
 }
 
 module "private_ec2_instance" {
